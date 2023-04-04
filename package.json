@@ -1,0 +1,27 @@
+{
+  "name": "my-example-web-site-part-1-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "save": "git add --all && git commit -m fix --no-verify && git push origin HEAD",
+    "prettier": "prettier --write \"src/**/*.{html,css,js,}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsenVoar/test-project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArsenVoar/test-project-1/issues"
+  },
+  "homepage": "https://github.com/ArsenVoar/test-project-1#readme"
+}

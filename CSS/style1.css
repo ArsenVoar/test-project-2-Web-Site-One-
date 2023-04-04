@@ -1,0 +1,35 @@
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(52, 50, 50);
+  color: aliceblue;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 30rem;
+}
+
+.carousel-caption p {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-flow: wrap;
+}
+ 
+hr.Ar{
+  border-color: black;
+background-color: black;
+height: 10px;
+}
